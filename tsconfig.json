@@ -1,0 +1,13 @@
+{
+  "files": ["src/*.bundle.ts"],
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "target": "es2015",
+    "esModuleInterop": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+        "module": "commonjs" 
+    }
+  }
+}
